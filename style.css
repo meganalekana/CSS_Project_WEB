@@ -134,12 +134,14 @@ hr{
     height: 40px;
     justify-content: center;
 }
-.section{
+/* .section{
     background-color: #000000;
     opacity: 0.5;
     height: 820px;
+} */
+.blur-container{
+    filter: blur(8px);
 }
-
 /* index3 */
 .container1{
     position: absolute;
@@ -178,12 +180,15 @@ hr{
 }
 
 /* index4 */
-.section1{
+/* .section1{
     background-color: #000000;
     opacity: 0.6;
     padding: 0;
     margin: 0;
     height: 610px;
+} */
+.blur-container1{
+    filter: blur(8px);
 }
 .container2{
     position: absolute;
