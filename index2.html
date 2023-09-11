@@ -9,48 +9,51 @@
     <title>Web View</title>
 </head>
 <body>
+    <div class="blur-container">
+    <a href="./index2.html">
+        <div class="header">
+            <h1><span id="task">Tasks</span><span id="list">List</span></h1>
+        </div>
+        <br>
+        <div class="taskbutton">
+            <i class="fa-solid fa-circle-plus colors"></i>
+            <span class="link">Add New Task</span>
+        </div>
+    </a>
     <a href="./index3.html">
-        <section class="section">
-            <div class="header">
-                <h1><span id="task">Tasks</span><span id="list">List</span></h1>
+        <div class="parent">
+            <div class="child1 child">
+                <h2>Trip to Paris</h2><hr>
+                <input type="checkbox" id="church" checked disabled><label for="church" class="boxes"> Visit Church</label><br>
+                <input type="checkbox" id="shopping" disabled ><label for="shopping"> Shopping</label>
             </div>
-            <br>
-            <div class="taskbutton">
-                <i class="fa-solid fa-circle-plus colors"></i>
-                <span class="link">Add New Task</span>
+            <div class="child2 child">
+                <h2>My To Do List</h2><hr>
+                <input type="checkbox" id="supermarket" checked disabled><label for="supermarket" class="boxes"> Visit Supermarket</label><br>
+                <input type="checkbox" id="vegetables" disabled><label for="vegetables">Buy Vegetables</label>
             </div>
-            <div class="parent">
-                <div class="child1 child">
-                    <h2>Trip to Paris</h2><hr>
-                    <input type="checkbox" id="church" checked disabled><label for="church" class="boxes"> Visit Church</label><br>
-                    <input type="checkbox" id="shopping" disabled ><label for="shopping"> Shopping</label>
-                </div>
-                <div class="child2 child">
-                    <h2>My To Do List</h2><hr>
-                    <input type="checkbox" id="supermarket" checked disabled><label for="supermarket" class="boxes"> Visit Supermarket</label><br>
-                    <input type="checkbox" id="vegetables" disabled><label for="vegetables">Buy Vegetables</label>
-                </div>
-                <div class="child3 child">
-                    <h2>Movies I Will Watch</h2><hr>
-                    <input type="checkbox" id="stranger" checked disabled ><label for="stranger" class="boxes">Stranger Things 4</label><br>
-                    <input type="checkbox" id="endgame" disabled><label for="endgame">Avengers Endgame</label>
-                </div>
-                <div class="child4 child">
-                    <h2>Daily Morning Routine for...</h2><hr>
-                    <input type="checkbox" id="wake" checked disabled ><label for="wake" class="boxes">Wake up at 6 AM </label><br>
-                    <input type="checkbox" id="sleep" disabled><label for="sleep">Sleep at 10 PM</label>
-                </div>
-                <div class="child5 child">
-                    <h2>Books to Read</h2><hr>
-                    <input type="checkbox" id="design" checked disabled ><label for="design" class="boxes">Design of Everyday</label><br>
-                    <input type="checkbox" id="alchemist" disabled><label for="alchemist">Alchemist </label>
-                </div>
+            <div class="child3 child">
+                <h2>Movies I Will Watch</h2><hr>
+                <input type="checkbox" id="stranger" checked disabled ><label for="stranger" class="boxes">Stranger Things 4</label><br>
+                <input type="checkbox" id="endgame" disabled><label for="endgame">Avengers Endgame</label>
             </div>
-        </section>
+            <div class="child4 child">
+                <h2>Daily Morning Routine for...</h2><hr>
+                <input type="checkbox" id="wake" checked disabled ><label for="wake" class="boxes">Wake up at 6 AM </label><br>
+                <input type="checkbox" id="sleep" disabled><label for="sleep">Sleep at 10 PM</label>
+            </div>
+            <div class="child5 child">
+                <h2>Books to Read</h2><hr>
+                <input type="checkbox" id="design" checked disabled ><label for="design" class="boxes">Design of Everyday</label><br>
+                <input type="checkbox" id="alchemist" disabled><label for="alchemist">Alchemist </label>
+            </div>
+        </div>
+    </a>
+</div>
             <div class="container">
                 <div class="item_head">
                     <p>Add New Task</p>
-                    <a href="index.html"><p><i class="fa-sharp fa-solid fa-xmark xmark"></i></p></a>            
+                    <a href="index.html"><p><i class="fa-sharp fa-solid fa-xmark xmark"></i></p> </a>              
                 </div><hr>
                 <div class="input_item">
                     <input class="input" type="text" id="input_Data" placeholder="Learn C++" disabled>
